@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
-#include <stdbool.h>
 
 // Hashing Function (Murmur3) -> Generates 32 bit unsignedT hash code
 uint32_t murmur3_32(const char *key, uint32_t len, uint32_t seed)
