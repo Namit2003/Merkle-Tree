@@ -254,7 +254,7 @@ int main()
     struct Block *b1_copy = blockCopy(b1);
 
     // Tampering the data
-    strcpy(b1_copy->transactions[1], "Transaction7");
+    strcpy(b1_copy->transactions[1], "Transaction8");
 
     printBlock(b1_copy);
     level_ordered_display(b1_copy->merkleRoot);
