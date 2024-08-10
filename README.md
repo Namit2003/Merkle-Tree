@@ -15,7 +15,7 @@ malicious person tries to tamper with data in any block and tries to justify it,
 tree hash of the original block differs from the tempered block and we can easily verify if
 the data has been tampered or not.
 
-● So because of the merkle tree, it is much faster to verify data integrity rather than
+● So because of the merkle tree, it is much faster to verify data integrity instead of
 checking all the transactions individually.
 
 ● It is also faster to locate which transaction data has been changed with the complexity of
